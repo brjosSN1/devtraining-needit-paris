@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="RequireIT" max_length="40" name="x_58872_needit_requireit_2k" type="collection">
+        <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="vpn" label="Request Type" mandatory="true" max_length="40" name="u_request_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="VPN" sequence="0" value="vpn"/>
+                <element inactive_on_update="false" label="Desktop Software" sequence="1" value="desktop_software"/>
+                <element inactive_on_update="false" label="Password" sequence="2" value="password"/>
+                <element inactive_on_update="false" label="Enterprise Software" sequence="3" value="enterprise_software"/>
+                <element inactive_on_update="false" label="New Hire" sequence="4" value="new_hire"/>
+                <element inactive_on_update="false" label="Hardware" sequence="5" value="hardware"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="vpn install" label="What needed" mandatory="true" max_length="40" name="u_what_needed" type="string">
+            <choice>
+                <element inactive_on_update="false" label="VPN Install" sequence="0" value="vpn install"/>
+                <element inactive_on_update="false" label="VPN Fix" sequence="1" value="vpn fix"/>
+                <element inactive_on_update="false" label="Microsoft Office" sequence="2" value="microsoft office"/>
+                <element inactive_on_update="false" label="Visual Studio" sequence="3" value="visual studio"/>
+                <element inactive_on_update="false" label="Microsoft SQL Server" sequence="4" value="microsoft sql server"/>
+                <element inactive_on_update="false" label="Password Reset" sequence="5" value="password reset"/>
+                <element inactive_on_update="false" label="New Hire Package" sequence="6" value="new hire package"/>
+                <element inactive_on_update="false" label="Desktop Computer" sequence="7" value="desktop computer"/>
+                <element inactive_on_update="false" label="Laptop" sequence="8" value="laptop"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="When needed" mandatory="true" max_length="40" name="u_when_needed" type="glide_date_time"/>
+    </element>
+</database>
