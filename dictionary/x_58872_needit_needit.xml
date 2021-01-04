@@ -1,44 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="RequireIT" max_length="40" name="x_58872_needit_needit" sizeclass="3" type="collection">
+    <element audit="true" extends="task" label="RequireIT" max_length="40" name="x_58872_needit_needit" sizeclass="5" type="collection">
         <element label="New field 1" max_length="40" name="new_field_1" type="string"/>
         <element label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="hw" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
+        <element attributes="edge_encryption_enabled=true" label="Requested for email" mandatory="true" max_length="40" name="u_requested_for_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="hw" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string" use_dependent_field="true">
             <choice>
-                <element inactive="true" inactive_on_update="true" label="Developer Enablement" sequence="0" value="dev_enable"/>
                 <element inactive_on_update="false" label="Hardware" sequence="0" value="hw"/>
-                <element inactive="true" inactive_on_update="true" label="Human Resources" sequence="0" value="hr"/>
-                <element inactive="true" inactive_on_update="true" label="Facilities" sequence="1" value="facilities"/>
                 <element inactive_on_update="false" label="Software" sequence="1" value="sw"/>
-                <element inactive="true" inactive_on_update="true" label="Legal" sequence="2" value="legal"/>
-                <element inactive_on_update="false" label="Remote Work" sequence="2" value="rm"/>
-                <element inactive_on_update="false" label="New Employee" sequence="3" value="emp"/>
-                <element inactive_on_update="false" label="Security" sequence="4" value="security"/>
+                <element inactive_on_update="false" label="Remote Work" sequence="3" value="rm"/>
+                <element inactive_on_update="false" label="New Employee" sequence="4" value="emp"/>
+                <element inactive_on_update="false" label="Security" sequence="5" value="security"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="desktop" label="What needed" mandatory="true" max_length="40" name="u_what_needed" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" label="What needed" mandatory="true" max_length="40" name="u_what_needed" type="string">
             <choice>
-                <element inactive_on_update="false" label="Desktop" sequence="0" value="desktop"/>
-                <element inactive="true" inactive_on_update="true" label="Human Resources 1" sequence="0" value="hr1"/>
-                <element inactive="true" inactive_on_update="true" label="Your Department Choice 1" sequence="0" value="your_choice1"/>
-                <element inactive="true" inactive_on_update="true" label="Human Resources 2" sequence="1" value="hr2"/>
-                <element inactive_on_update="false" label="Laptop" sequence="1" value="laptop"/>
-                <element inactive="true" inactive_on_update="true" label="Your Department Choice 2" sequence="1" value="your_choice2"/>
-                <element inactive="true" inactive_on_update="true" label="Facilities 1" sequence="2" value="facilities1"/>
-                <element inactive_on_update="false" label="Personal Printer" sequence="2" value="pprinter"/>
-                <element inactive="true" inactive_on_update="true" label="Facilities 2" sequence="3" value="facilities2"/>
-                <element inactive_on_update="false" label="MS Office" sequence="3" value="office"/>
-                <element inactive_on_update="false" label="Antivirus" sequence="4" value="antivirus"/>
-                <element inactive="true" inactive_on_update="true" label="Legal 1" sequence="4" value="legal1"/>
-                <element inactive="true" inactive_on_update="true" label="Legal 2" sequence="5" value="legal2"/>
-                <element inactive_on_update="false" label="Visual Studio" sequence="5" value="studio"/>
-                <element inactive="true" inactive_on_update="true" label="Other" sequence="6" value="other"/>
-                <element inactive_on_update="false" label="VPN Setup" sequence="6" value="vpn"/>
-                <element inactive_on_update="false" label="Internet Setup" sequence="7" value="internet"/>
-                <element inactive_on_update="false" label="Employee Access" sequence="8" value="newemp"/>
-                <element inactive_on_update="false" label="Background Check" sequence="9" value="bgcheck"/>
-                <element inactive_on_update="false" label="CJIS" sequence="10" value="cjis"/>
-                <element inactive_on_update="false" label="User Account" sequence="11" value="useracct"/>
-                <element inactive_on_update="false" label="Password Reset" sequence="12" value="pwdreset"/>
+                <element dependent_value="hw" inactive_on_update="false" label="Laptop" sequence="0" value="laptop"/>
+                <element dependent_value="hw" inactive_on_update="false" label="Desktop" sequence="1" value="desktop"/>
+                <element dependent_value="hw" inactive_on_update="false" label="Personal Printer" sequence="2" value="pprinter"/>
+                <element dependent_value="sw" inactive_on_update="false" label="MS Office" sequence="3" value="office"/>
+                <element dependent_value="sw" inactive_on_update="false" label="Antivirus" sequence="4" value="antivirus"/>
+                <element dependent_value="sw" inactive_on_update="false" label="Visual Studio" sequence="5" value="studio"/>
+                <element dependent_value="legal" inactive_on_update="false" label="Other" sequence="6" value="other"/>
+                <element dependent_value="rm" inactive_on_update="false" label="VPN Setup" sequence="7" value="vpn"/>
+                <element dependent_value="rm" inactive_on_update="false" label="Internet Setup" sequence="8" value="internet"/>
+                <element dependent_value="emp" inactive_on_update="false" label="Employee Access" sequence="9" value="newemp"/>
+                <element dependent_value="emp" inactive_on_update="false" label="Background Check" sequence="10" value="bgcheck"/>
+                <element dependent_value="security" inactive_on_update="false" label="CJIS" sequence="11" value="cjis"/>
+                <element dependent_value="emp" inactive_on_update="false" label="User Account" sequence="12" value="useracct"/>
+                <element dependent_value="security" inactive_on_update="false" label="Password Reset" sequence="13" value="pwdreset"/>
             </choice>
         </element>
         <element label="When needed" mandatory="true" max_length="40" name="u_when_needed" type="glide_date_time"/>

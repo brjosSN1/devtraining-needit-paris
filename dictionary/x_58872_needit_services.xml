@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Services" max_length="40" name="x_58872_needit_services" sizeclass="0" type="collection">
+        <element label="Service ID" max_length="12" name="service_id" type="string"/>
+        <element label="Service Name" max_length="100" name="service_name" type="string"/>
+    </element>
+</database>

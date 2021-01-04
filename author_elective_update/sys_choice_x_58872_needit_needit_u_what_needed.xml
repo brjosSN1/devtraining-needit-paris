@@ -6,7 +6,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-01-26 19:39:58</sys_created_on>
-            <sys_id>2efd4be0dbc524101d432946489619a0</sys_id>
+            <sys_id>f58976b72f05a01029883e0ef699b62b</sys_id>
             <sys_mod_count>3</sys_mod_count>
             <sys_name>u_what_needed</sys_name>
             <sys_package display_value="RequireIT-Paris" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -17,140 +17,45 @@
             <sys_updated_on>2017-02-16 00:07:09</sys_updated_on>
         </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_what_needed</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Desktop</label>
-            <language>en</language>
-            <name>x_58872_needit_needit</name>
-            <sequence>0</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-12-14 21:14:23</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>30cec416db4d20101d432946489619a6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-14 21:14:23</sys_updated_on>
-            <value>desktop</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_what_needed</element>
-            <hint/>
-            <inactive>true</inactive>
-            <label>Human Resources 1</label>
-            <language>en</language>
-            <name>x_58872_needit_needit</name>
-            <sequence>0</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-01-26 19:39:58</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>6ccad1710fa03200cd674f8ce1050e06</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-14 21:14:24</sys_updated_on>
-            <value>hr1</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_what_needed</element>
-            <hint/>
-            <inactive>true</inactive>
-            <label>Your Department Choice 1</label>
-            <language>en</language>
-            <name>x_58872_needit_needit</name>
-            <sequence>0</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-01-26 19:39:58</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>a4cad1710fa03200cd674f8ce1050e10</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-02-08 22:44:35</sys_updated_on>
-            <value>your_choice1</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_what_needed</element>
-            <hint/>
-            <inactive>true</inactive>
-            <label>Human Resources 2</label>
-            <language>en</language>
-            <name>x_58872_needit_needit</name>
-            <sequence>1</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-01-26 19:39:58</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>68cad1710fa03200cd674f8ce1050e08</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-14 21:14:24</sys_updated_on>
-            <value>hr2</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
+            <dependent_value>hw</dependent_value>
             <element>u_what_needed</element>
             <hint/>
             <inactive>false</inactive>
             <label>Laptop</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
-            <sequence>1</sequence>
+            <sequence>0</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-12-14 21:14:23</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>09cec416db4d20101d432946489619a8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>4</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-14 21:14:23</sys_updated_on>
+            <sys_updated_on>2020-12-26 01:31:58</sys_updated_on>
             <value>laptop</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
+            <dependent_value>hw</dependent_value>
             <element>u_what_needed</element>
             <hint/>
-            <inactive>true</inactive>
-            <label>Your Department Choice 2</label>
+            <inactive>false</inactive>
+            <label>Desktop</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>1</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-01-26 19:39:58</sys_created_on>
+            <sys_created_on>2020-12-14 21:14:23</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>eccad1710fa03200cd674f8ce1050e11</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_id>30cec416db4d20101d432946489619a6</sys_id>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-02-08 22:44:35</sys_updated_on>
-            <value>your_choice2</value>
+            <sys_updated_on>2020-12-26 01:31:58</sys_updated_on>
+            <value>desktop</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_what_needed</element>
-            <hint/>
-            <inactive>true</inactive>
-            <label>Facilities 1</label>
-            <language>en</language>
-            <name>x_58872_needit_needit</name>
-            <sequence>2</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-01-26 19:39:58</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>a0cad1710fa03200cd674f8ce1050e0a</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-14 21:14:24</sys_updated_on>
-            <value>facilities1</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
+            <dependent_value>hw</dependent_value>
             <element>u_what_needed</element>
             <hint/>
             <inactive>false</inactive>
@@ -163,32 +68,13 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>c5cec416db4d20101d432946489619aa</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-14 21:14:23</sys_updated_on>
+            <sys_updated_on>2020-12-26 01:31:59</sys_updated_on>
             <value>pprinter</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_what_needed</element>
-            <hint/>
-            <inactive>true</inactive>
-            <label>Facilities 2</label>
-            <language>en</language>
-            <name>x_58872_needit_needit</name>
-            <sequence>3</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-01-26 19:39:58</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>e8cad1710fa03200cd674f8ce1050e0b</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-14 21:14:24</sys_updated_on>
-            <value>facilities2</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
+            <dependent_value>sw</dependent_value>
             <element>u_what_needed</element>
             <hint/>
             <inactive>false</inactive>
@@ -201,13 +87,13 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>85cec416db4d20101d432946489619ac</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-14 21:14:23</sys_updated_on>
+            <sys_updated_on>2020-12-26 01:31:59</sys_updated_on>
             <value>office</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
+            <dependent_value>sw</dependent_value>
             <element>u_what_needed</element>
             <hint/>
             <inactive>false</inactive>
@@ -220,51 +106,13 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>45cec416db4d20101d432946489619ae</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-14 21:14:23</sys_updated_on>
+            <sys_updated_on>2020-12-26 01:31:59</sys_updated_on>
             <value>antivirus</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_what_needed</element>
-            <hint/>
-            <inactive>true</inactive>
-            <label>Legal 1</label>
-            <language>en</language>
-            <name>x_58872_needit_needit</name>
-            <sequence>4</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-01-26 19:39:58</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>24cad1710fa03200cd674f8ce1050e0d</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-14 21:14:24</sys_updated_on>
-            <value>legal1</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_what_needed</element>
-            <hint/>
-            <inactive>true</inactive>
-            <label>Legal 2</label>
-            <language>en</language>
-            <name>x_58872_needit_needit</name>
-            <sequence>5</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-01-26 19:39:58</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>6ccad1710fa03200cd674f8ce1050e0e</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-14 21:14:24</sys_updated_on>
-            <value>legal2</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
+            <dependent_value>sw</dependent_value>
             <element>u_what_needed</element>
             <hint/>
             <inactive>false</inactive>
@@ -277,16 +125,16 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>05cec416db4d20101d432946489619b0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-14 21:14:23</sys_updated_on>
+            <sys_updated_on>2020-12-26 01:31:59</sys_updated_on>
             <value>studio</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
+            <dependent_value>legal</dependent_value>
             <element>u_what_needed</element>
             <hint/>
-            <inactive>true</inactive>
+            <inactive>false</inactive>
             <label>Other</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
@@ -296,36 +144,17 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>49b7dd149f013200bde5f79ff57fcfa1</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-14 21:14:24</sys_updated_on>
+            <sys_updated_on>2020-12-26 01:31:59</sys_updated_on>
             <value>other</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
+            <dependent_value>rm</dependent_value>
             <element>u_what_needed</element>
             <hint/>
             <inactive>false</inactive>
             <label>VPN Setup</label>
-            <language>en</language>
-            <name>x_58872_needit_needit</name>
-            <sequence>6</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-12-14 21:14:23</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>c1cec416db4d20101d432946489619b2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-14 21:14:23</sys_updated_on>
-            <value>vpn</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_what_needed</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Internet Setup</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>7</sequence>
@@ -333,18 +162,18 @@
             <sys_created_on>2020-12-14 21:14:23</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>81cec416db4d20101d432946489619b4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>c1cec416db4d20101d432946489619b2</sys_id>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-14 21:14:23</sys_updated_on>
-            <value>internet</value>
+            <sys_updated_on>2020-12-26 01:31:59</sys_updated_on>
+            <value>vpn</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
+            <dependent_value>rm</dependent_value>
             <element>u_what_needed</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Employee Access</label>
+            <label>Internet Setup</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>8</sequence>
@@ -352,37 +181,37 @@
             <sys_created_on>2020-12-14 21:14:23</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>41cec416db4d20101d432946489619b6</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>81cec416db4d20101d432946489619b4</sys_id>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-14 21:14:23</sys_updated_on>
-            <value>newemp</value>
+            <sys_updated_on>2020-12-26 01:31:59</sys_updated_on>
+            <value>internet</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
+            <dependent_value>emp</dependent_value>
             <element>u_what_needed</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Background Check</label>
+            <label>Employee Access</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>9</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-12-14 21:14:24</sys_created_on>
+            <sys_created_on>2020-12-14 21:14:23</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>01cec416db4d20101d432946489619b8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>41cec416db4d20101d432946489619b6</sys_id>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-14 21:14:24</sys_updated_on>
-            <value>bgcheck</value>
+            <sys_updated_on>2020-12-26 01:31:59</sys_updated_on>
+            <value>newemp</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
+            <dependent_value>emp</dependent_value>
             <element>u_what_needed</element>
             <hint/>
             <inactive>false</inactive>
-            <label>CJIS</label>
+            <label>Background Check</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>10</sequence>
@@ -390,18 +219,18 @@
             <sys_created_on>2020-12-14 21:14:24</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>cdcec416db4d20101d432946489619b9</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>01cec416db4d20101d432946489619b8</sys_id>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-14 21:14:24</sys_updated_on>
-            <value>cjis</value>
+            <sys_updated_on>2020-12-26 01:31:59</sys_updated_on>
+            <value>bgcheck</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
+            <dependent_value>security</dependent_value>
             <element>u_what_needed</element>
             <hint/>
             <inactive>false</inactive>
-            <label>User Account</label>
+            <label>CJIS</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>11</sequence>
@@ -409,18 +238,18 @@
             <sys_created_on>2020-12-14 21:14:24</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>8dcec416db4d20101d432946489619bb</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>cdcec416db4d20101d432946489619b9</sys_id>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-14 21:14:24</sys_updated_on>
-            <value>useracct</value>
+            <sys_updated_on>2020-12-26 01:31:59</sys_updated_on>
+            <value>cjis</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
+            <dependent_value>emp</dependent_value>
             <element>u_what_needed</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Password Reset</label>
+            <label>User Account</label>
             <language>en</language>
             <name>x_58872_needit_needit</name>
             <sequence>12</sequence>
@@ -428,10 +257,29 @@
             <sys_created_on>2020-12-14 21:14:24</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>4dcec416db4d20101d432946489619bd</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>8dcec416db4d20101d432946489619bb</sys_id>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-14 21:14:24</sys_updated_on>
+            <sys_updated_on>2020-12-26 01:31:59</sys_updated_on>
+            <value>useracct</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>security</dependent_value>
+            <element>u_what_needed</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Password Reset</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>13</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-14 21:14:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4dcec416db4d20101d432946489619bd</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-26 01:31:59</sys_updated_on>
             <value>pwdreset</value>
         </sys_choice>
     </sys_choice>
