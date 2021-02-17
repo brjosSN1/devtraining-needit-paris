@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>get_property_manager</internal_name>
+        <label_cache>[{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":"x_58872_needit_requireit_task"},{"name":"{{action.task_record}}","label":"action➛Task Record","type":"action","ref":"x_58872_needit_requireit_task"}]</label_cache>
+        <latest_snapshot>5650d81e2fd2201029883e0ef699b6bf</latest_snapshot>
+        <master_snapshot>d650d81e2fd2201029883e0ef699b6ec</master_snapshot>
+        <name>Wait for Task Active is true</name>
+        <natlang/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 00:36:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>399f84da2fd2201029883e0ef699b6cd</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Wait for Task Active is true</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RequireIT-Paris" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RequireIT-Paris">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_399f84da2fd2201029883e0ef699b6cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 00:41:57</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=399f84da2fd2201029883e0ef699b6cd"/>
+    <sys_variable_value action="delete_multiple" query="document_key=399f84da2fd2201029883e0ef699b6cd"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=399f84da2fd2201029883e0ef699b6cd^sys_idNOT IN36df041e2fd2201029883e0ef699b629"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Wait for Task Active is true">399f84da2fd2201029883e0ef699b6cd</action>
+        <cid>5403e5be-bb66-4602-b433-9b41c4603166</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Wait for Task Record = True</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Wait For Condition">4c9234ca0b18030085c083eb37673aaa</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 00:37:39</sys_created_on>
+        <sys_id>36df041e2fd2201029883e0ef699b629</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="RequireIT-Paris">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 00:39:43</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=36df041e2fd2201029883e0ef699b629"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>36df041e2fd2201029883e0ef699b629</document_key>
+        <order>105</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 00:39:18</sys_created_on>
+        <sys_id>5f30581e2fd2201029883e0ef699b6ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 00:39:18</sys_updated_on>
+        <value>x_58872_needit_requireit_task</value>
+        <variable display_value="">72b2bcca0b18030085c083eb37673a0b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>36df041e2fd2201029883e0ef699b629</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 00:39:18</sys_created_on>
+        <sys_id>9b30581e2fd2201029883e0ef699b6ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 00:39:18</sys_updated_on>
+        <value>active=true</value>
+        <variable display_value="">7de2fcca0b18030085c083eb37673aed</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=36df041e2fd2201029883e0ef699b629"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>36df041e2fd2201029883e0ef699b629</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 00:39:18</sys_created_on>
+        <sys_id>5730581e2fd2201029883e0ef699b6ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 00:39:18</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_4c9234ca0b18030085c083eb37673aaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>36df041e2fd2201029883e0ef699b629</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 00:39:18</sys_created_on>
+        <sys_id>9f30581e2fd2201029883e0ef699b6c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 00:39:18</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_4c9234ca0b18030085c083eb37673aaa</table>
+        <value>{{action.task_record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>36df041e2fd2201029883e0ef699b629</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 00:39:18</sys_created_on>
+        <sys_id>1b30581e2fd2201029883e0ef699b6ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 00:39:18</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_4c9234ca0b18030085c083eb37673aaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_input action="delete_multiple" query="model=399f84da2fd2201029883e0ef699b6cd^sys_idNOT IN1f2098da2fd2201029883e0ef699b6b5"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=a54d62e1-f778-4d5c-b0fa-cb7c2b9c06c4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_58872_needit_requireit_task</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>task_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Task Record</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Wait for Task Active is true">399f84da2fd2201029883e0ef699b6cd</model>
+        <model_id>399f84da2fd2201029883e0ef699b6cd</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_399f84da2fd2201029883e0ef699b6cd</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_58872_needit_requireit_task">x_58872_needit_requireit_task</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 00:39:02</sys_created_on>
+        <sys_id>1f2098da2fd2201029883e0ef699b6b5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="RequireIT-Paris">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 00:39:02</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_step_instance action="delete_multiple" query="action=399f84da2fd2201029883e0ef699b6cd^sys_idNOT IN36df041e2fd2201029883e0ef699b629"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Wait for Task Active is true">399f84da2fd2201029883e0ef699b6cd</action>
+        <cid>5403e5be-bb66-4602-b433-9b41c4603166</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Wait for Task Record = True</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Wait For Condition">4c9234ca0b18030085c083eb37673aaa</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 00:37:39</sys_created_on>
+        <sys_id>36df041e2fd2201029883e0ef699b629</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="RequireIT-Paris">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 00:39:43</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=36df041e2fd2201029883e0ef699b629"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>36df041e2fd2201029883e0ef699b629</document_key>
+        <order>105</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 00:39:18</sys_created_on>
+        <sys_id>5f30581e2fd2201029883e0ef699b6ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 00:39:18</sys_updated_on>
+        <value>x_58872_needit_requireit_task</value>
+        <variable display_value="">72b2bcca0b18030085c083eb37673a0b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>36df041e2fd2201029883e0ef699b629</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 00:39:18</sys_created_on>
+        <sys_id>9b30581e2fd2201029883e0ef699b6ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 00:39:18</sys_updated_on>
+        <value>active=true</value>
+        <variable display_value="">7de2fcca0b18030085c083eb37673aed</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=36df041e2fd2201029883e0ef699b629"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>36df041e2fd2201029883e0ef699b629</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 00:39:18</sys_created_on>
+        <sys_id>5730581e2fd2201029883e0ef699b6ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 00:39:18</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_4c9234ca0b18030085c083eb37673aaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>36df041e2fd2201029883e0ef699b629</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 00:39:18</sys_created_on>
+        <sys_id>9f30581e2fd2201029883e0ef699b6c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 00:39:18</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_4c9234ca0b18030085c083eb37673aaa</table>
+        <value>{{action.task_record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>36df041e2fd2201029883e0ef699b629</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 00:39:18</sys_created_on>
+        <sys_id>1b30581e2fd2201029883e0ef699b6ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 00:39:18</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_4c9234ca0b18030085c083eb37673aaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_399f84da2fd2201029883e0ef699b6cd^sys_idNOT INd720181e2fd2201029883e0ef699b67e"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>task_record</element>
+        <help/>
+        <hint/>
+        <label>Task Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_399f84da2fd2201029883e0ef699b6cd</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 00:39:02</sys_created_on>
+        <sys_id>d720181e2fd2201029883e0ef699b67e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RequireIT-Paris" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RequireIT-Paris">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 00:39:02</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=399f84da2fd2201029883e0ef699b6cd^sys_idNOT INaa501c1e2fd2201029883e0ef699b627"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Wait for Task Active is true">399f84da2fd2201029883e0ef699b6cd</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"aa501c1e2fd2201029883e0ef699b627","name":"plan"}}</plan>
+        <snapshot>5650d81e2fd2201029883e0ef699b6bf</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 00:39:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aa501c1e2fd2201029883e0ef699b627</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 00:39:49</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>get_property_manager</internal_name>
+        <label_cache>[{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":"x_58872_needit_requireit_task"},{"name":"{{action.task_record}}","label":"action➛Task Record","type":"action","ref":"x_58872_needit_requireit_task"}]</label_cache>
+        <master>true</master>
+        <name>Get Property Manager</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="Wait for Task Active is true">399f84da2fd2201029883e0ef699b6cd</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 00:39:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d650d81e2fd2201029883e0ef699b6ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="RequireIT-Paris">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 00:39:48</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=d650d81e2fd2201029883e0ef699b6ec"/>
+    <sys_variable_value action="delete_multiple" query="document_key=d650d81e2fd2201029883e0ef699b6ec"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=d650d81e2fd2201029883e0ef699b6ec^sys_idNOT IN5a50d81e2fd2201029883e0ef699b6f7"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Property Manager">d650d81e2fd2201029883e0ef699b6ec</action>
+        <cid>5403e5be-bb66-4602-b433-9b41c4603166</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Wait for Task Record = True</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Wait For Condition">4c9234ca0b18030085c083eb37673aaa</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 00:39:48</sys_created_on>
+        <sys_id>5a50d81e2fd2201029883e0ef699b6f7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="RequireIT-Paris">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 00:39:48</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5a50d81e2fd2201029883e0ef699b6f7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5a50d81e2fd2201029883e0ef699b6f7</document_key>
+        <order>105</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 00:39:48</sys_created_on>
+        <sys_id>9250d81e2fd2201029883e0ef699b6fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 00:39:48</sys_updated_on>
+        <value>x_58872_needit_requireit_task</value>
+        <variable display_value="">72b2bcca0b18030085c083eb37673a0b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5a50d81e2fd2201029883e0ef699b6f7</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 00:39:48</sys_created_on>
+        <sys_id>de50d81e2fd2201029883e0ef699b6fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 00:39:48</sys_updated_on>
+        <value>active=true</value>
+        <variable display_value="">7de2fcca0b18030085c083eb37673aed</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5a50d81e2fd2201029883e0ef699b6f7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>5a50d81e2fd2201029883e0ef699b6f7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 00:39:48</sys_created_on>
+        <sys_id>9a50d81e2fd2201029883e0ef699b6fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 00:39:48</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_4c9234ca0b18030085c083eb37673aaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>5a50d81e2fd2201029883e0ef699b6f7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 00:39:48</sys_created_on>
+        <sys_id>d650d81e2fd2201029883e0ef699b6fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 00:39:48</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_4c9234ca0b18030085c083eb37673aaa</table>
+        <value>{{action.task_record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>5a50d81e2fd2201029883e0ef699b6f7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 00:39:48</sys_created_on>
+        <sys_id>5e50d81e2fd2201029883e0ef699b6fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 00:39:48</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_4c9234ca0b18030085c083eb37673aaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_input action="delete_multiple" query="model=d650d81e2fd2201029883e0ef699b6ec^sys_idNOT INd650d81e2fd2201029883e0ef699b6ed"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=a54d62e1-f778-4d5c-b0fa-cb7c2b9c06c4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_58872_needit_requireit_task</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>task_record</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Task Record</label>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Get Property Manager">d650d81e2fd2201029883e0ef699b6ec</model>
+        <model_id>d650d81e2fd2201029883e0ef699b6ec</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_d650d81e2fd2201029883e0ef699b6ec</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_58872_needit_requireit_task">x_58872_needit_requireit_task</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 00:39:48</sys_created_on>
+        <sys_id>d650d81e2fd2201029883e0ef699b6ed</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="RequireIT-Paris">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 00:39:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_step_instance action="delete_multiple" query="action=d650d81e2fd2201029883e0ef699b6ec^sys_idNOT IN5a50d81e2fd2201029883e0ef699b6f7"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Property Manager">d650d81e2fd2201029883e0ef699b6ec</action>
+        <cid>5403e5be-bb66-4602-b433-9b41c4603166</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Wait for Task Record = True</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Wait For Condition">4c9234ca0b18030085c083eb37673aaa</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 00:39:48</sys_created_on>
+        <sys_id>5a50d81e2fd2201029883e0ef699b6f7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="RequireIT-Paris">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 00:39:48</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5a50d81e2fd2201029883e0ef699b6f7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5a50d81e2fd2201029883e0ef699b6f7</document_key>
+        <order>105</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 00:39:48</sys_created_on>
+        <sys_id>9250d81e2fd2201029883e0ef699b6fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 00:39:48</sys_updated_on>
+        <value>x_58872_needit_requireit_task</value>
+        <variable display_value="">72b2bcca0b18030085c083eb37673a0b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5a50d81e2fd2201029883e0ef699b6f7</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 00:39:48</sys_created_on>
+        <sys_id>de50d81e2fd2201029883e0ef699b6fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 00:39:48</sys_updated_on>
+        <value>active=true</value>
+        <variable display_value="">7de2fcca0b18030085c083eb37673aed</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5a50d81e2fd2201029883e0ef699b6f7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>5a50d81e2fd2201029883e0ef699b6f7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 00:39:48</sys_created_on>
+        <sys_id>9a50d81e2fd2201029883e0ef699b6fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 00:39:48</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_4c9234ca0b18030085c083eb37673aaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>5a50d81e2fd2201029883e0ef699b6f7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 00:39:48</sys_created_on>
+        <sys_id>d650d81e2fd2201029883e0ef699b6fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 00:39:48</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_4c9234ca0b18030085c083eb37673aaa</table>
+        <value>{{action.task_record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>5a50d81e2fd2201029883e0ef699b6f7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 00:39:48</sys_created_on>
+        <sys_id>5e50d81e2fd2201029883e0ef699b6fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 00:39:48</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_4c9234ca0b18030085c083eb37673aaa</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_d650d81e2fd2201029883e0ef699b6ec^sys_idNOT IN1650d81e2fd2201029883e0ef699b6f5"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>task_record</element>
+        <help/>
+        <hint/>
+        <label>Task Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_d650d81e2fd2201029883e0ef699b6ec</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 00:39:48</sys_created_on>
+        <sys_id>1650d81e2fd2201029883e0ef699b6f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RequireIT-Paris" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RequireIT-Paris">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 00:39:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>
