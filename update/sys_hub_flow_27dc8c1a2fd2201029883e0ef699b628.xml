@@ -6,13 +6,13 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build/>
+        <compiler_build>glide-paris-06-24-2020__patch1-hotfix3-09-23-2020</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description>Flow to find ReuireIT tasks older than the number of days in the auto close application property, close them, and open a follow-up task for management</description>
         <internal_name>find_and_close_long_overdue_requireit_tasks</internal_name>
         <label_cache>[{"name":"2931503f-ac60-4afe-8b1f-3ddf4674b623.item.due_date","label":"4➛RequireIT Task Record➛Due date","reference":"","reference_display":"Due date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_58872_needit_requireit_task","column_name":"due_date"},{"name":"2931503f-ac60-4afe-8b1f-3ddf4674b623.item.number","label":"4➛RequireIT Task Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_58872_needit_requireit_task","column_name":"number"},{"name":"2931503f-ac60-4afe-8b1f-3ddf4674b623.item","label":"4➛RequireIT Task Record","reference":"x_58872_needit_requireit_task","reference_display":"RequireIT Task","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"a7fd4fc4-6a78-4df7-aa39-5fe5ea3d1cf8.property_value","label":"1➛Property value","reference_display":"Property value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"ee49b919-75a2-493a-aa64-755f89c41054"}},{"name":"d52d0f04-ac86-4144-a7f0-4685f767238a.property_value","label":"1➛Property value","reference_display":"Property value","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"ee49b919-75a2-493a-aa64-755f89c41054"}},{"name":"26e28cba-1a34-4438-89dd-b2e7fb7a1b5c.calculated_date","label":"2➛Calculated date","reference_display":"Calculated date","type":"string","base_type":"string","attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"abe727db-8779-4cb5-9a3c-2cdb22161446"}},{"name":"d8ef7222-20b8-463f-aa31-be0fa8287e0b.Records","label":"3➛RequireIT Task Records","reference":"x_58872_needit_requireit_task","reference_display":"RequireIT Task","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d8ef7222-20b8-463f-aa31-be0fa8287e0b.Table","label":"3➛RequireIT Task Table","reference":"x_58872_needit_requireit_task","reference_display":"RequireIT Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d8ef7222-20b8-463f-aa31-be0fa8287e0b.Count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"4ec583c9-6aa8-4f7a-938c-20bbd07b2665.followup_task","label":"5➛Follow-up task","reference":"x_58872_needit_requireit_task","reference_display":"RequireIT Task","type":"reference","base_type":"reference","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"a788f798-d55c-42ed-a05e-96b24b53cb8c"}}]</label_cache>
-        <latest_snapshot>986b0bc72f12201029883e0ef699b6c8</latest_snapshot>
+        <latest_snapshot>75b487672fd6201029883e0ef699b6d6</latest_snapshot>
         <master_snapshot>986b0bc72f12201029883e0ef699b6c8</master_snapshot>
         <name>Find and close long overdue RequireIT Tasks</name>
         <natlang/>
@@ -105,7 +105,7 @@
         <action_type display_value="Get Days Ago Date">304534192f96201029883e0ef699b653</action_type>
         <action_type_parent/>
         <comment>Calculate cutoff date based on property value</comment>
-        <compiled_snapshot/>
+        <compiled_snapshot>304534192f96201029883e0ef699b653</compiled_snapshot>
         <display_text/>
         <flow display_value="Find and close long overdue RequireIT Tasks">27dc8c1a2fd2201029883e0ef699b628</flow>
         <order>2</order>
@@ -114,10 +114,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-15 01:10:01</sys_created_on>
         <sys_id>014718922f16201029883e0ef699b6fa</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="RequireIT-Paris">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-17 22:12:28</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-02-19 11:00:19</sys_updated_on>
         <ui_id>26e28cba-1a34-4438-89dd-b2e7fb7a1b5c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=014718922f16201029883e0ef699b6fa"/>
@@ -154,7 +154,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
         <display_text/>
         <flow display_value="Find and close long overdue RequireIT Tasks">27dc8c1a2fd2201029883e0ef699b628</flow>
         <order>3</order>
@@ -163,10 +163,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-15 01:10:01</sys_created_on>
         <sys_id>014758922f16201029883e0ef699b601</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="RequireIT-Paris">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-17 22:12:28</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-02-19 11:00:19</sys_updated_on>
         <ui_id>d8ef7222-20b8-463f-aa31-be0fa8287e0b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=014758922f16201029883e0ef699b601"/>
@@ -256,7 +256,7 @@
         <action_type display_value="Get Property">8f07dc9d2f16201029883e0ef699b6fa</action_type>
         <action_type_parent/>
         <comment>Get number of days old something should be to be closed automatically</comment>
-        <compiled_snapshot/>
+        <compiled_snapshot>8f07dc9d2f16201029883e0ef699b6fa</compiled_snapshot>
         <display_text/>
         <flow display_value="Find and close long overdue RequireIT Tasks">27dc8c1a2fd2201029883e0ef699b628</flow>
         <order>1</order>
@@ -265,10 +265,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-15 00:43:52</sys_created_on>
         <sys_id>8241985e2fd2201029883e0ef699b610</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="RequireIT-Paris">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-17 22:12:28</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-02-19 11:00:19</sys_updated_on>
         <ui_id>a7fd4fc4-6a78-4df7-aa39-5fe5ea3d1cf8</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8241985e2fd2201029883e0ef699b610"/>
@@ -398,7 +398,7 @@
         <action_type display_value="Get Days Ago Date">304534192f96201029883e0ef699b653</action_type>
         <action_type_parent/>
         <comment>Calculate cutoff date based on property value</comment>
-        <compiled_snapshot/>
+        <compiled_snapshot>304534192f96201029883e0ef699b653</compiled_snapshot>
         <display_text/>
         <flow display_value="Find and close long overdue RequireIT Tasks">27dc8c1a2fd2201029883e0ef699b628</flow>
         <order>2</order>
@@ -407,10 +407,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-15 01:10:01</sys_created_on>
         <sys_id>014718922f16201029883e0ef699b6fa</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="RequireIT-Paris">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-17 22:12:28</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-02-19 11:00:19</sys_updated_on>
         <ui_id>26e28cba-1a34-4438-89dd-b2e7fb7a1b5c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=014718922f16201029883e0ef699b6fa"/>
@@ -447,7 +447,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent/>
         <comment/>
-        <compiled_snapshot/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
         <display_text/>
         <flow display_value="Find and close long overdue RequireIT Tasks">27dc8c1a2fd2201029883e0ef699b628</flow>
         <order>3</order>
@@ -456,10 +456,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-15 01:10:01</sys_created_on>
         <sys_id>014758922f16201029883e0ef699b601</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="RequireIT-Paris">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-17 22:12:28</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-02-19 11:00:19</sys_updated_on>
         <ui_id>d8ef7222-20b8-463f-aa31-be0fa8287e0b</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=014758922f16201029883e0ef699b601"/>
@@ -507,7 +507,7 @@
         <action_type display_value="Get Property">8f07dc9d2f16201029883e0ef699b6fa</action_type>
         <action_type_parent/>
         <comment>Get number of days old something should be to be closed automatically</comment>
-        <compiled_snapshot/>
+        <compiled_snapshot>8f07dc9d2f16201029883e0ef699b6fa</compiled_snapshot>
         <display_text/>
         <flow display_value="Find and close long overdue RequireIT Tasks">27dc8c1a2fd2201029883e0ef699b628</flow>
         <order>1</order>
@@ -516,10 +516,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-15 00:43:52</sys_created_on>
         <sys_id>8241985e2fd2201029883e0ef699b610</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="RequireIT-Paris">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-17 22:12:28</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-02-19 11:00:19</sys_updated_on>
         <ui_id>a7fd4fc4-6a78-4df7-aa39-5fe5ea3d1cf8</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8241985e2fd2201029883e0ef699b610"/>
@@ -629,9 +629,9 @@
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=27dc8c1a2fd2201029883e0ef699b628^sys_idNOT INdd6b4bc72f12201029883e0ef699b62d"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
-        <plan/>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"dd6b4bc72f12201029883e0ef699b62d","name":"plan"}}</plan>
         <plan_id>27dc8c1a2fd2201029883e0ef699b628</plan_id>
-        <snapshot>986b0bc72f12201029883e0ef699b6c8</snapshot>
+        <snapshot>75b487672fd6201029883e0ef699b6d6</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-17 22:12:27</sys_created_on>
         <sys_domain>global</sys_domain>
